@@ -25,6 +25,7 @@ public class NinjaModel {
 
     //@ManyToOne indica que o ninja vai ter apenas uma missão
     @ManyToOne
-    @JoinColumn(name="missoes_id") // Foreing Key
+    @JoinColumn(name = "missoes_id") // Foreing Key
     private MissoesModel missoesModel;
 
+}
